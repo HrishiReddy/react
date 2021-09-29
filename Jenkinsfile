@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Get some code from a GitHub repository
+                //  GitHub repository
                git 'https://github.com/HrishiReddy/react.git'
 
                 
